@@ -1,0 +1,21 @@
+#contextmenu {
+  border: 1px solid #aaa;
+  border-bottom: 0;
+  background: #eee;
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+#contextmenu li a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #aaa;
+  cursor: pointer;
+}
+
+#contextmenu li a:hover {
+  background: #fff;
+}
